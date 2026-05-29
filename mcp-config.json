@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "renode-mcp": {
+            "command": "python3",
+            "args": [
+                "/path/to/renode-mcp/renode_mcp.py"
+            ],
+            "env": {
+                "RENODE_PATH": "/path/to/renode",
+                "RENODE_TELNET_PORT": "1234",
+                "RENODE_SCRIPTS_DIR": "/path/to/your/resc/scripts"
+            }
+        }
+    }
+}
